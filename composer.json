@@ -1,0 +1,28 @@
+{
+    "name": "larangular/artisan-gui",
+    "description": "Artisan web user interface",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "simon",
+            "email": "sdiaz.sz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larangular\\ArtisanGUI\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larangular\\ArtisanGUI\\ArtisanGUIServiceProvider"
+            ]
+        }
+    }
+}
+
